@@ -1,0 +1,22 @@
+[project]
+name = "jopbrainlib-notebook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jeroen Kroesen", email = "jeroen@kroesen.nu" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "catppuccin-jupyterlab>=0.2.4",
+    "jopbrainlib>=0.1.0a2",
+    "joppylib>=0.1.0a11",
+    "jupyterlab>=4.5.6",
+    "jupyterlab-vim>=4.1.4",
+    "pandas>=3.0.1",
+    "rich>=14.3.3",
+]
+
+[tool.uv.sources]
+joppylib = { git = "https://github.com/jeroenkroesen/joppylib.git", rev = "main" }
+jopbrainlib = { git = "https://github.com/jeroenkroesen/jopbrainlib", rev = "main" }
