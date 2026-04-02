@@ -18,5 +18,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-joppylib = { git = "https://github.com/jeroenkroesen/joppylib.git", rev = "main" }
 jopbrainlib = { git = "https://github.com/jeroenkroesen/jopbrainlib", rev = "main" }

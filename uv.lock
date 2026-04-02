@@ -564,7 +564,7 @@ dependencies = [
 requires-dist = [
     { name = "catppuccin-jupyterlab", specifier = ">=0.2.4" },
     { name = "jopbrainlib", git = "https://github.com/jeroenkroesen/jopbrainlib?rev=main" },
-    { name = "joppylib", git = "https://github.com/jeroenkroesen/joppylib.git?rev=main" },
+    { name = "joppylib", specifier = ">=0.1.0a11" },
     { name = "jupyterlab", specifier = ">=4.5.6" },
     { name = "jupyterlab-vim", specifier = ">=4.1.4" },
     { name = "pandas", specifier = ">=3.0.1" },
